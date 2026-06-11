@@ -96,7 +96,7 @@
 
 <main class="w-full h-full rounded-[24px] bg-slate-950/50 backdrop-blur-3xl border border-white/10 flex items-center p-4 shadow-[0_8px_32px_0_rgba(0,0,0,0.6)] m-4 gap-4 overflow-hidden relative" style="width: calc(100vw - 32px); height: calc(100vh - 32px);">
   
-  <div onpointerdown={startDrag} role="button" tabindex="0" style="-webkit-app-region: drag; app-region: drag;" class="flex-shrink-0 flex items-center justify-center px-2 cursor-move text-slate-500 hover:text-cyan-400 transition-colors h-full" title="Drag to move Cuniform">
+  <div onpointerdown={startDrag} role="button" tabindex="0" style="-webkit-app-region: drag; app-region: drag;" class="flex-shrink-0 flex items-center justify-center px-2 cursor-move text-slate-500 hover:text-cyan-400 transition-colors h-full" title="Drag to move Cuneiform">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pointer-events-none"><circle cx="9" cy="12" r="1"></circle><circle cx="9" cy="5" r="1"></circle><circle cx="9" cy="19" r="1"></circle><circle cx="15" cy="12" r="1"></circle><circle cx="15" cy="5" r="1"></circle><circle cx="15" cy="19" r="1"></circle></svg>
   </div>
 
@@ -112,7 +112,7 @@
       <path d="M4 12h16"></path>
       <path d="M12 4v16"></path>
     </svg>
-    <button onclick={() => invoke("exit_app")} class="text-rose-400/50 hover:text-rose-400 text-[9px] font-bold tracking-widest transition-colors flex items-center justify-center border border-rose-500/20 bg-rose-500/10 rounded px-1.5 py-0.5" title="Close Cuniform">EXIT</button>
+    <button onclick={() => invoke("exit_app")} class="text-rose-400/50 hover:text-rose-400 text-[9px] font-bold tracking-widest transition-colors flex items-center justify-center border border-rose-500/20 bg-rose-500/10 rounded px-1.5 py-0.5" title="Close Cuneiform">EXIT</button>
     {#if errorMsg}
       <div class="absolute -bottom-10 left-1/2 -translate-x-1/2 whitespace-nowrap bg-rose-500/10 text-rose-400 px-3 py-1 rounded text-xs border border-rose-500/20 shadow-lg backdrop-blur-md z-50">
         {errorMsg}

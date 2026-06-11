@@ -1,8 +1,8 @@
-# Cuniform 💠
+# Cuneiform 💠
 
-**Cuniform** is a hyper-lightweight, native Windows workspace orchestrator built with **Rust**, **Tauri v2**, and **Svelte**. 
+**Cuneiform** is a hyper-lightweight, native Windows workspace orchestrator built with **Rust**, **Tauri v2**, and **Svelte**. 
 
-It allows you to group disparate desktop applications into logical "Tiles" (workspace families), bringing order to chaotic desktop environments. Built directly on top of the native Win32 API, Cuniform operates entirely offline with microscopic CPU/RAM footprints.
+It allows you to group disparate desktop applications into logical "Tiles" (workspace families), bringing order to chaotic desktop environments. Built directly on top of the native Win32 API, Cuneiform operates entirely offline with microscopic CPU/RAM footprints.
 
 ---
 
@@ -12,7 +12,7 @@ It allows you to group disparate desktop applications into logical "Tiles" (work
 - **Instant Z-Order Sync**: When you focus one window in a Tile, the entire family of windows is instantly brought to the foreground, preserving their Z-order.
 - **Toggle Visibility**: Minimize or restore an entire Tile of applications with a single click.
 - **Omnipresent UI**: A sleek, borderless, frosted-glass control center that hovers above your work. Summon or banish it instantly using the global shortcut `Alt + Shift + C`.
-- **Zero-Delay Capture**: Switch to any app on your desktop, summon Cuniform, and click the `[+]` capture button to instantly snap that window into a Tile.
+- **Zero-Delay Capture**: Switch to any app on your desktop, summon Cuneiform, and click the `[+]` capture button to instantly snap that window into a Tile.
 - **Dynamic Pruning**: Automatically detects when you close an application via the OS and cleanly removes it from its assigned Tile.
 - **Aero Snap Protected**: Custom borderless behavior prevents accidental Windows 11 edge-snapping when moving the orchestrator.
 
@@ -22,14 +22,14 @@ It allows you to group disparate desktop applications into logical "Tiles" (work
 You will need [Node.js](https://nodejs.org/), [Rust](https://rustup.rs/), and the standard [Tauri Prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites) installed on your system.
 
 ### Development Server
-To run Cuniform in development mode with hot-module reloading:
+To run Cuneiform in development mode with hot-module reloading:
 ```powershell
 npm install
 npm run tauri dev
 ```
 
 ### Building the Executable
-To compile Cuniform into a highly optimized, standalone Windows installer (`.exe` and `.msi`):
+To compile Cuneiform into a highly optimized, standalone Windows installer (`.exe` and `.msi`):
 ```powershell
 npm run tauri build
 ```

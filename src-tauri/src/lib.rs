@@ -1,7 +1,7 @@
 use windows::Win32::Foundation::HWND;
 use windows::Win32::UI::WindowsAndMessaging::{
     GetForegroundWindow, SetWindowPos, SWP_NOACTIVATE, SWP_NOMOVE, SWP_NOSIZE, SWP_NOZORDER, GetWindowThreadProcessId,
-    IsIconic, ShowWindow, SW_MINIMIZE, SW_RESTORE, IsWindow
+    ShowWindow, SW_MINIMIZE, SW_RESTORE, IsWindow
 };
 
 use std::sync::{Arc, Mutex};
